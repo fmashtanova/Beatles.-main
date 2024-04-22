@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Общая информация</title>
+    <style>
+        body {
+            background-color: #D8BFD8;
+            color: #000000;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        #navigation {
+            padding: 10px 0;
+        }
+        #navigation a {
+            color: #000000;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        h1, strong {
+            color: #000000;
+        }
+        ol {
+            padding-left: 20px;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid white;
+            width: 50%;
+            margin: 20px auto;
+        }
+        footer {
+            margin-top: 20px;
+        }
+        .member-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .member-info {
+            text-align: left;
+            margin: 10px;
+            width: 45%;
+        }
+        .member-image {
+            display: block;
+            margin: 0 auto;
+            max-width: 200px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+<div id="navigation">
+    <a href="index.html">Главная</a> |
+    <a href="info.html">Общая информация</a> |
+    <a href="history.html">История</a> |
+    <a href="film.html">Фильмография</a> |
+    <a href="disk.html">Дискография</a> |
+    <a href="links.html">Источники</a> |
+    <a href="contacts.html">Контакты</a>
+</div>
+
+<h1><em>Общая информация</em></h1>
+
+<p>
+    <strong>Название: </strong>The Beatles («Битлз»; отдельно участников ансамбля называют «битлами»)<br><br>
+    <strong>Страна: </strong>Великобритания (г. Ливерпуль)<br><br>
+    <strong>Годы: </strong>1960-1970<br><br>
+    <strong>The Beatles</strong> — британская рок-группа, являющаяся самым ярким феноменом мировой культуры 60-х годов XX века. Группу основал весной 1956 года 15-летний Джон Леннон. Вначале она называлась «The Quarrymen».<br><br>
+    <strong>Состав группы</strong> (те, кого весь мир знает как The Beatles):<br>
+    <div class="member-container">
+        <div class="member-info">
+            <img src="img/john_lennon.jpg" alt="Джон Леннон" class="member-image">
+            <strong>Джон Леннон</strong><br>
+            Ритм-гитара, соло-гитара, клавишные, бубен, маракасы, бас-гитара, губная гармоника, вокал
+        </div>
+        <div class="member-info">
+            <img src="img/ringo_starr.jpg" alt="Ринго Старр" class="member-image">
+            <strong>Ринго Старр</strong><br>
+            Ударные, ритм-гитара, бубен, маракасы, коубелл, бонги, клавишные, вокал
+        </div>
+        <div class="member-info">
+            <img src="img/george_harrison.jpeg" alt="Джордж Харрисон" class="member-image">
+            <strong>Джордж Харрисон</strong><br>
+            Соло-гитара, ритм-гитара, ситар, бубен, клавишные, вокал
+        </div>
+        <div class="member-info">
+            <img src="img/paul_mccartney.jpg" alt="Пол Маккартни" class="member-image">
+            <strong>Пол Маккартни</strong><br>
+            Бас-гитара, клавишные, ударные, гитара, вокал
+        </div>
+    </div>
+    Также в разное время в составе группы выступали:<br>
+    <ol start="5">
+        <li>Пит Бест (ударные, вокал)</li>
+        <li>Спарт Сатклифф (бас-гитара, вокал)</li>
+        <li>Джимми Никол (ударные)</li>
+    </ol>
+    После распада группы, произошедшего в 1970 году, каждый из её участников начал сольную карьеру.
+</p>
+
+<hr>
+
+<footer>&copy; Все права защищены.</footer>
+
+</body>
+</html>
